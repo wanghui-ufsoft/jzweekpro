@@ -1,0 +1,88 @@
+ #WeekListS {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+halign:center;
+weight:1;
+height:0;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #navigatorbar0 {
+halign:LEFT;
+font-size:14;
+}
+ #button0 {
+padding-left:20;
+halign:left;
+height:44;
+pressed-image:btn_back_touch;
+font-size:18;
+width:88;
+background-image:btn_back;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel1 {
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+layout:hbox;
+background:#FFFFFF;
+width:fill;
+valign:center;
+border-bottom-color:#C7C7C7;
+}
+ #panel2 {
+halign:CENTER;
+height:60.0;
+weight:1;
+layout:relative;
+width:0;
+valign:TOP;
+}
+ #label2 {
+halign:center;
+height:wrap;
+widthWrap:34.0;
+color:#000000;
+heightWrap:15.0;
+font-size:10;
+width:wrap;
+font-family:default;
+left:230.0;
+valign:center;
+top:30.0;
+}
+ #label0 {
+halign:center;
+height:wrap;
+widthWrap:32.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+font-family:default;
+left:40.0;
+valign:center;
+top:0.0;
+}

@@ -1,0 +1,33 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #infoWidget {
+halign:LEFT;
+height:80.0;
+layout:hbox;
+width:320.0;
+left:0.0;
+valign:center;
+top:240.0;
+}
+ #panel0 {
+height:80;
+background:#FFFFE0;
+layout:relative;
+width:fill;
+}
+ #label0 {
+halign:center;
+height:wrap;
+widthWrap:150.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+left:40.0;
+font-family:default;
+valign:center;
+top:20.0;
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application id="jzweekpro" appname="jzweekpro" versionCode="1" versionName="1" icon="app" jsengine="v2.0" push_enable="true">
+  <permission id="internet"/>
+  <components>
+    <component name="jzweekpro" start="true"/>
+  </components>
+  <import id="push" type="mobile" ref="component"/>
+</application>

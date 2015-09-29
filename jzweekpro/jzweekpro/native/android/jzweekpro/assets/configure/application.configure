@@ -1,0 +1,16 @@
+applicationid=jzweekpro
+push_enable=true
+push_enable=true
+APP_ID=247
+push_appid=247
+key.alias=
+mapsdk=gaode
+key.alias.password=
+push_server_mang=http://xiaoxi.yonyou.com:80/manage/proxyservice
+com.amap.api.v2.apikey=
+push_companypwd=e10adc3949ba59abbe56e057f20f883e
+push_server_msg=http://push.yyuap.com:5000/manage/proxyservice
+key.store=
+mapkey=
+push_companyid=7c623740-36ae-4e21-b87d-2875d9ead18f
+key.store.password=

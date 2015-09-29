@@ -1,0 +1,209 @@
+ #Home {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+background:#F5F5F5;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #togglebuttongroup0 {
+halign:CENTER;
+height:44;
+layout:hbox;
+width:fill;
+valign:top;
+}
+ #togglebutton0 {
+halign:center;
+height:42.0;
+background-image-off:label_4_middle.png;
+width:320.0;
+valign:center;
+background-image-on:label_4_middle_touch.png;
+}
+ #flipperdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel1 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #listviewdefine0 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel3 {
+border-bottom-width:1px;
+padding-right:4;
+padding-left:4;
+halign:LEFT;
+width:fill;
+border-bottom-color:#c0c0c0;
+border-top-width:1px;
+border-top-color:#c0c0c0;
+height:60.0;
+background:#FFFFFF;
+layout:hbox;
+valign:center;
+}
+ #label0 {
+halign:center;
+height:wrap;
+widthWrap:15.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+margin-left:20;
+font-family:default;
+valign:center;
+}
+ #label1 {
+halign:center;
+height:wrap;
+widthWrap:34.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #label2 {
+halign:center;
+height:wrap;
+widthWrap:15.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+margin-left:10;
+font-family:default;
+valign:center;
+}
+ #label3 {
+halign:right;
+height:wrap;
+widthWrap:60.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+margin-left:40;
+font-family:default;
+valign:bottom;
+}
+ #label4 {
+halign:right;
+height:wrap;
+widthWrap:32.0;
+color:#000000;
+heightWrap:19.0;
+font-size:13;
+width:wrap;
+margin-left:8;
+font-family:default;
+valign:bottom;
+}
+ #panel2 {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #listviewdefine1 {
+halign:center;
+height:0;
+weight:1;
+layout:vbox;
+width:fill;
+valign:TOP;
+}
+ #panel4 {
+border-bottom-width:1;
+halign:LEFT;
+height:60.0;
+background:#FFFFFF;
+layout:relative;
+width:fill;
+valign:CENTER;
+border-bottom-color:#C7C7C7;
+}
+ #label5 {
+halign:center;
+height:wrap;
+widthWrap:32.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+font-family:default;
+left:30.0;
+valign:center;
+top:10.0;
+}
+ #label6 {
+halign:center;
+height:wrap;
+widthWrap:24.0;
+color:#000000;
+heightWrap:15.0;
+font-size:10;
+width:wrap;
+font-family:default;
+left:210.0;
+valign:center;
+top:30.0;
+}
+ #tabbar0 {
+halign:CENTER;
+height:46;
+layout:hbox;
+width:fill;
+valign:top;
+}
+ #tabbaritem0 {
+icon-height:23;
+height:44.0;
+width:0;
+icon-background-image:tab_fav;
+icon-width:23;
+icon-pressed-image:tab_fav_touch;
+}
+ #tabbaritem3 {
+icon-height:23;
+height:44.0;
+width:0;
+icon-background-image:tab_setting;
+icon-width:23;
+icon-pressed-image:tab_setting_touch;
+}

@@ -1,0 +1,57 @@
+# view AndroidManifest.xml #generated:144
+-keep class com.android.email.ACCOUNT_INTENT { <init>(...); }
+
+# view res/layout/um_alert_dialog.xml #generated:66
+-keep class com.android.internal.widget.DialogTitle { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.yonyou.jzweekpro.HomeExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.yonyou.jzweekpro.LatestContentSExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.yonyou.jzweekpro.LatestReadListExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.yonyou.jzweekpro.SettingPageExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.yonyou.jzweekpro.WeekContentSExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.yonyou.jzweekpro.WeekListSExtendActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:146
+-keep class com.yonyou.pushclient.NotificationPushService { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.yonyou.pushclient.ShowNotification { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.yonyou.uap.um.activity.ReportActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.yonyou.uap.um.activity.WelcomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.yonyou.uap.um.control.UMCameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:128
+-keep class com.yonyou.uap.um.control.UMMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:114
+-keep class com.yonyou.uap.um.control.UMTwoDCodeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.yonyou.uap.um.core.UAPMobileApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:72
+-keep class com.yonyou.uap.um.core.nativeweb.NWWindowActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:135
+-keep class com.yonyou.uap.um.runtime.ExtraMapActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:151
+-keep class com.yonyou.uap.um.upush.UMAssistService { <init>(...); }
+
