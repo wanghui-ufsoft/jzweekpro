@@ -11,7 +11,7 @@
             </toggleButtonGroup>
             <flipper id="flipperdefine0" viewindex="0">
                 <div id="panel1" title="页面1">
-                    <listView id="listviewdefine0" bindfield="week" onload="this.listviewdefine0_onload()">
+                    <listView id="listviewdefine0" bindfield="week" onuprefresh="this.onuprefresh()" onload="this.listviewdefine0_onload()" ondownrefresh="this.ondownrefresh()">
                         <div id="panel3" onclick="this.toWeeklist()">
                             <label id="label0">第</label>
                             <label id="label1" bindfield="weekid"/>

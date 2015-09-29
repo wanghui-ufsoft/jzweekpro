@@ -35,16 +35,16 @@ protected UMLabel label0 = null;
 protected UMImage image0 = null;
 
 	
-	protected final static int ID_SETTINGPAGE = 1781132277;
-protected final static int ID_VIEWPAGE0 = 196596115;
-protected final static int ID_PANEL0 = 973662264;
-protected final static int ID_NAVIGATORBAR0 = 1680348178;
-protected final static int ID_BUTTON0 = 1799188805;
-protected final static int ID_LISTVIEWDEFINE0 = 302920761;
-protected final static int ID_PANEL1 = 2060087289;
-protected final static int ID_LABEL1 = 1642818721;
-protected final static int ID_LABEL0 = 260491713;
-protected final static int ID_IMAGE0 = 596597494;
+	protected final static int ID_SETTINGPAGE = 1696959338;
+protected final static int ID_VIEWPAGE0 = 1860909885;
+protected final static int ID_PANEL0 = 680251;
+protected final static int ID_NAVIGATORBAR0 = 1769943003;
+protected final static int ID_BUTTON0 = 1521585974;
+protected final static int ID_LISTVIEWDEFINE0 = 1338982218;
+protected final static int ID_PANEL1 = 93532575;
+protected final static int ID_LABEL1 = 1654334352;
+protected final static int ID_LABEL0 = 1816239899;
+protected final static int ID_IMAGE0 = 1290926114;
 
 	
 	

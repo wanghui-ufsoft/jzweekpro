@@ -22,7 +22,7 @@ function com$yonyou$jzweekpro$WeekContentSController$webview0_onload(sender, arg
    }else if(oldjson == null){
    $cache.write("cachearticels", $jsonToString(json));
    }
-   var url ="http://1.202.248.51:8088/api/v1/showarticle/"+json.id;
+   var url ="http://10.10.2.63:9000/api/v1/showarticle/"+json.id;
    $id("webview0").set("url",url);
 }
 function com$yonyou$jzweekpro$WeekContentSController$backList(sender, args){

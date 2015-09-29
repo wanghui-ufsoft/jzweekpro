@@ -47,28 +47,28 @@ protected UMXTabBarItem tabbaritem0 = null;
 protected UMXTabBarItem tabbaritem3 = null;
 
 	
-	protected final static int ID_HOME = 567468576;
-protected final static int ID_VIEWPAGE0 = 1704346186;
-protected final static int ID_PANEL0 = 1819797719;
-protected final static int ID_TOGGLEBUTTONGROUP0 = 1832594056;
-protected final static int ID_TOGGLEBUTTON0 = 2136799427;
-protected final static int ID_FLIPPERDEFINE0 = 1532984540;
-protected final static int ID_PANEL1 = 726324178;
-protected final static int ID_LISTVIEWDEFINE0 = 1162033203;
-protected final static int ID_PANEL3 = 2147037774;
-protected final static int ID_LABEL0 = 1910945267;
-protected final static int ID_LABEL1 = 1761449536;
-protected final static int ID_LABEL2 = 503981485;
-protected final static int ID_LABEL3 = 1371255109;
-protected final static int ID_LABEL4 = 801597649;
-protected final static int ID_PANEL2 = 2144825236;
-protected final static int ID_LISTVIEWDEFINE1 = 2112402401;
-protected final static int ID_PANEL4 = 213619969;
-protected final static int ID_LABEL5 = 591912376;
-protected final static int ID_LABEL6 = 4846698;
-protected final static int ID_TABBAR0 = 1875105842;
-protected final static int ID_TABBARITEM0 = 257758343;
-protected final static int ID_TABBARITEM3 = 1610155812;
+	protected final static int ID_HOME = 1722852082;
+protected final static int ID_VIEWPAGE0 = 121132183;
+protected final static int ID_PANEL0 = 1638933550;
+protected final static int ID_TOGGLEBUTTONGROUP0 = 916931739;
+protected final static int ID_TOGGLEBUTTON0 = 905387552;
+protected final static int ID_FLIPPERDEFINE0 = 702533928;
+protected final static int ID_PANEL1 = 1862483597;
+protected final static int ID_LISTVIEWDEFINE0 = 1105072807;
+protected final static int ID_PANEL3 = 806406628;
+protected final static int ID_LABEL0 = 379769833;
+protected final static int ID_LABEL1 = 1337280421;
+protected final static int ID_LABEL2 = 483403533;
+protected final static int ID_LABEL3 = 715285877;
+protected final static int ID_LABEL4 = 1196541084;
+protected final static int ID_PANEL2 = 1943541519;
+protected final static int ID_LISTVIEWDEFINE1 = 803318047;
+protected final static int ID_PANEL4 = 1031189764;
+protected final static int ID_LABEL5 = 951271528;
+protected final static int ID_LABEL6 = 1220854527;
+protected final static int ID_TABBAR0 = 625267679;
+protected final static int ID_TABBARITEM0 = 1070279525;
+protected final static int ID_TABBARITEM3 = 1954656595;
 
 	
 	
@@ -251,7 +251,7 @@ togglebuttongroup0 = (UMToggleButtonGroup)ThirdControl.createControl(new UMToggl
 togglebutton0 = (UMToggleButton)ThirdControl.createControl(new UMToggleButton(context),ID_TOGGLEBUTTON0
 ,"halign","center"
 ,"background-image-off","label_4_middle.png"
-,"width","320.0"
+,"width","375.0"
 ,"textoff","技术周刊"
 ,"font-pressed-color","#ffffff"
 ,"type","button"
@@ -370,10 +370,12 @@ listviewdefine0 = (UMListViewBase)ThirdControl.createControl(new UMListViewBase(
 ,"halign","center"
 ,"height","0"
 ,"weight","1"
+,"onuprefresh","action:listviewdefine0_onuprefresh"
 ,"onload","action:listviewdefine0_onload"
 ,"layout-type","vbox"
 ,"layout","vbox"
 ,"width","fill"
+,"ondownrefresh","action:listviewdefine0_ondownrefresh"
 ,"valign","TOP"
 );
 listviewdefine0.addListItemView("getPanel3View");
@@ -598,6 +600,13 @@ return (UMWindow)Home;
   ActionProcessor.exec(this, actionid, args);
   this.getContainer().exec(actionid, "this.panel4_onload()",UMActivity.getViewId(control),args);
 }
+public void actionListviewdefine0_ondownrefresh(View control, UMEventArgs args) {
+    String actionid = "listviewdefine0_ondownrefresh";
+    args.put("language","javascript");
+    args.put("containerName","");
+  ActionProcessor.exec(this, actionid, args);
+  this.getContainer().exec(actionid, "this.ondownrefresh()",UMActivity.getViewId(control),args);
+}
 public void actionToSetPage(View control, UMEventArgs args) {
     String actionid = "toSetPage";
     args.put("viewid","com.yonyou.jzweekpro.SettingPage");
@@ -633,6 +642,13 @@ public void actionTabbaritem0_onclick(View control, UMEventArgs args) {
     args.put("containerName","");
   ActionProcessor.exec(this, actionid, args);
   this.getContainer().exec(actionid, "this.tolatestRead()",UMActivity.getViewId(control),args);
+}
+public void actionListviewdefine0_onuprefresh(View control, UMEventArgs args) {
+    String actionid = "listviewdefine0_onuprefresh";
+    args.put("language","javascript");
+    args.put("containerName","");
+  ActionProcessor.exec(this, actionid, args);
+  this.getContainer().exec(actionid, "this.onuprefresh()",UMActivity.getViewId(control),args);
 }
 
 

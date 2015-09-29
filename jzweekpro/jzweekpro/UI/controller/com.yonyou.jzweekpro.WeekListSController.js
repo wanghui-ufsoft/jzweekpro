@@ -39,7 +39,7 @@ function com$yonyou$jzweekpro$WeekListSController$listviewdefine0_onload(sender,
         var json = $param.getJSONObject("data");
         var jsonnew = $stringToJSON(json);
         $ctx.push(json);
-        var url = "http://1.202.248.51:8088/api/v1/articles/"+jsonnew.id;
+        var url = "http://10.10.2.63:9000/api/v1/articles/"+jsonnew.id;
         var result  = $service.get({
        "url" :  url,
        "callback" : "jsFunction()",

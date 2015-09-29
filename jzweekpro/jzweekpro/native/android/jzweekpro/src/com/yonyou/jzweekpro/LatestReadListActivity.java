@@ -34,15 +34,15 @@ protected UMLabel label0 = null;
 protected UMLabel label1 = null;
 
 	
-	protected final static int ID_LATESTREADLIST = 1256508496;
-protected final static int ID_VIEWPAGE0 = 2128317004;
-protected final static int ID_PANEL0 = 709786342;
-protected final static int ID_NAVIGATORBAR0 = 1379177013;
-protected final static int ID_BUTTON0 = 1939675684;
-protected final static int ID_LISTVIEWDEFINE0 = 1189252153;
-protected final static int ID_PANEL1 = 247926777;
-protected final static int ID_LABEL0 = 61997687;
-protected final static int ID_LABEL1 = 2122579932;
+	protected final static int ID_LATESTREADLIST = 504639362;
+protected final static int ID_VIEWPAGE0 = 1723995969;
+protected final static int ID_PANEL0 = 1371946451;
+protected final static int ID_NAVIGATORBAR0 = 2125422099;
+protected final static int ID_BUTTON0 = 318399892;
+protected final static int ID_LISTVIEWDEFINE0 = 1281011151;
+protected final static int ID_PANEL1 = 1849220638;
+protected final static int ID_LABEL0 = 1440145152;
+protected final static int ID_LABEL1 = 1279124444;
 
 	
 	

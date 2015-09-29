@@ -37,23 +37,29 @@ function com$yonyou$jzweekpro$HomeController$evaljs(js){
 }
 function com$yonyou$jzweekpro$HomeController$listviewdefine0_onload(sender, args){
 	    $service.call("UMPush.registerDevice", {}, false);
-        var result = $service.get({
-        "url" : "http://1.202.248.51:8088/api/v1/weeklies",
-        "callback" : "jsFunction()",
-        "timeout" : "5"//可选参数，超时时间，单位为秒
-    })
+	var json = $service.get({
+	"url" : "http://10.10.2.63:9000/api/v1/page/1",
+	"callback" : "jsFunction()",
+	"timeout" : "5"//可选参数，超时时间，单位为秒
+	})
+	$cache.write("pageindex",1);
 }
  function    jsFunction(){
     var resultfin =$ctx.param("result");
     var jsonresultfin = $stringToJSON(resultfin);
-    jsonresultfin.forEach(function(res){
+    
+    var str = {list : jsonresultfin.list};
+    if(str.list.length==0){
+    	$alert("再没有更多周刊了");
+    	return;
+    }
+    jsonresultfin.list.forEach(function(res){
        if(res.id <10){
-       	  // alert("res.weekid=="+res.weekid);
            res.weekid=(" "+res.weekid+" ");
        } 
     });
     var json ={
-        week : jsonresultfin
+        week : jsonresultfin.list
     }
     $ctx.push(json);
  }
@@ -83,7 +89,34 @@ function com$yonyou$jzweekpro$HomeController$listviewdefine1_onload(sender, args
 function com$yonyou$jzweekpro$HomeController$panel4_onload(sender, args){
      
 }
+function com$yonyou$jzweekpro$HomeController$onuprefresh(sender, args){
+    var pageindex = $cache.read("pageindex");
+	var currindex = parseInt(pageindex)-1;
+	if(currindex<1){
+	$alert("已经是最新期的周刊了");
+	return;
+	}
+	$cache.write("pageindex", currindex);
+    var json = $service.get({
+    "url" : "http://10.10.2.63:9000/api/v1/page/"+currindex,
+    "callback" : "jsFunction()",
+    "timeout" : "5"//可选参数，超时时间，单位为秒
+    })
+}
+function com$yonyou$jzweekpro$HomeController$ondownrefresh(sender, args){
+	var pageindex = $cache.read("pageindex");
+	var currindex = parseInt(pageindex)+1;
+	 $cache.write("pageindex", currindex);
+    var json = $service.get({
+    "url" : "http://10.10.2.63:9000/api/v1/page/"+currindex,
+    "callback" : "jsFunction()",
+    "timeout" : "5"//可选参数，超时时间，单位为秒
+    })
+}
 com.yonyou.jzweekpro.HomeController.prototype = {
+    ondownrefresh : com$yonyou$jzweekpro$HomeController$ondownrefresh,
+    onuprefresh : com$yonyou$jzweekpro$HomeController$onuprefresh,
+    onuprefresh : com$yonyou$jzweekpro$HomeController$onuprefresh,
     panel4_onload : com$yonyou$jzweekpro$HomeController$panel4_onload,
     listviewdefine1_onload : com$yonyou$jzweekpro$HomeController$listviewdefine1_onload,
     tolatestRead : com$yonyou$jzweekpro$HomeController$tolatestRead,

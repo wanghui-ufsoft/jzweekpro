@@ -32,7 +32,7 @@ valign:top;
 halign:center;
 height:42.0;
 background-image-off:label_4_middle.png;
-width:320.0;
+width:375.0;
 valign:center;
 background-image-on:label_4_middle_touch.png;
 }
@@ -152,8 +152,8 @@ valign:TOP;
 border-bottom-width:1;
 halign:LEFT;
 height:60.0;
-background:#FFFFFF;
 layout:relative;
+background:#FFFFFF;
 width:fill;
 valign:CENTER;
 border-bottom-color:#C7C7C7;

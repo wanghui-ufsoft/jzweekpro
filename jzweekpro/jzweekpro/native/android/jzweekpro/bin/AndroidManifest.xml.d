@@ -1,2 +1,2 @@
-E:\code\mobile-uap\new\jzweekpro\jzweekpro\native\android\jzweekpro\bin\AndroidManifest.xml : \
-E:\code\mobile-uap\new\jzweekpro\jzweekpro\native\android\jzweekpro\AndroidManifest.xml \
+F:\weekly\github\jzweekpro\jzweekpro\jzweekpro\native\android\jzweekpro\bin\AndroidManifest.xml : \
+F:\weekly\github\jzweekpro\jzweekpro\jzweekpro\native\android\jzweekpro\AndroidManifest.xml \

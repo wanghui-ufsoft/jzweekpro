@@ -41,7 +41,7 @@ function com$yonyou$jzweekpro$LatestContentSController$webview0_onload(sender, a
    if(json.weekid == null){
    	json.weekid =1;
    }
-   var url ="http://1.202.248.51:8088/api/v1/showarticle/"+json.weekid;
+   var url ="http://10.10.2.63:9000/api/v1/showarticle/"+json.weekid;
    $id("webview0").set("url",url);
 }
 function com$yonyou$jzweekpro$LatestContentSController$backLatestList(sender, args){

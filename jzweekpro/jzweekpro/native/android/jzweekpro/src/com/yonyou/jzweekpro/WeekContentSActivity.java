@@ -31,12 +31,12 @@ protected UMButton button0 = null;
 protected UMWebView webview0 = null;
 
 	
-	protected final static int ID_WEEKCONTENTS = 1316367592;
-protected final static int ID_VIEWPAGE0 = 2050779268;
-protected final static int ID_PANEL0 = 1891084589;
-protected final static int ID_NAVIGATORBAR0 = 1796234142;
-protected final static int ID_BUTTON0 = 1048986997;
-protected final static int ID_WEBVIEW0 = 1017896635;
+	protected final static int ID_WEEKCONTENTS = 673945716;
+protected final static int ID_VIEWPAGE0 = 1203731025;
+protected final static int ID_PANEL0 = 807049858;
+protected final static int ID_NAVIGATORBAR0 = 22456623;
+protected final static int ID_BUTTON0 = 357246489;
+protected final static int ID_WEBVIEW0 = 1863216610;
 
 	
 	
